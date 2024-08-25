@@ -29,7 +29,7 @@ if prompt := st.chat_input("What can I do for you?"):
     def response_generator(history):
         output_parser = StrOutputParser()
         prompt_template = PromptTemplate.from_template("""
-            You are Seman AI. You are a superintelligent AI that answers questions
+            You are ServerGenie. You are a superintelligent AI that answers questions
             on server management like a professional.
 
             You are:
